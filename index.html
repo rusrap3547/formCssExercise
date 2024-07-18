@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>CSS Form Exercise</title>
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<h1>Devslopes Survey Form</h1>
+		<form
+			action=""
+			class="survey_form">
+			<div
+				id="putYourName"
+				class="typingInformation">
+				<label
+					for="fullName"
+					id="fullName"
+					class="textField"
+					>Name</label
+				><br />
+				<input
+					type="text"
+					id="fullName" />
+			</div>
+			<div
+				id="enterEmailAddress"
+				class="typingInformation">
+				<label
+					for="emailAddress"
+					class="ty"
+					>Email Address</label
+				><br />
+				<input
+					type="text"
+					id="enterEmailAddress"
+					class="typingInformation" />
+			</div>
+			<div>
+				<label
+					for="ageInput"
+					id="ageInput"
+					class="typingInformation"
+					>Age (optional) </label
+				><br />
+				<input
+					type="text"
+					id="ageInput"
+					class="typingInformation" />
+			</div>
+			<div
+				id="currentRole"
+				class="dropDownoption">
+				<label
+					for="currentRole"
+					id="currentRole">
+					Which option best descripbes your current role?</label
+				><br />
+				<select
+					name="currentRole"
+					id="currentRole">
+					<option value="student">Student</option>
+					<option value="fullTimeLearner">Full Time Learner</option>
+					<option value="fullTimeJob">Full Time Job</option>
+					<option value="hidingInformation">Prefer Not to Say</option>
+					<option value="nullOtherOption">Other</option>
+				</select>
+			</div>
+			<div>
+				<label for="recommendations"> Would you recommend Devslopes to a friend?</label><br />
+				<input
+					type="radio"
+					id="recommendations"
+					name="Challenges" />
+			</div>
+		</form>
+	</body>
+</html>
