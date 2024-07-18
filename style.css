@@ -1,1 +1,24 @@
- 
+body {
+	background-image: url(usedPictures/matrix.jpeg);
+}
+form {
+	border: 2px solid black;
+	margin-left: 20%;
+	margin-right: 20%;
+	color: white;
+	background-color: gray;
+	padding: 20px;
+}
+h1 {
+	color: lime;
+	background-color: gray;
+	text-align: center;
+}
+
+#comments {
+    height: 100pt;
+    width: 100%;
+}
+label{
+    padding-bottom: ;
+}

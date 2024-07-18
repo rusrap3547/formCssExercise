@@ -53,6 +53,7 @@
 					id="ageInput"
 					class="typingInformation" />
 			</div>
+			<br />
 			<div
 				id="currentRole"
 				class="dropDownoption">
@@ -72,12 +73,74 @@
 				</select>
 			</div>
 			<div>
-				<label for="recommendations"> Would you recommend Devslopes to a friend?</label><br />
-				<input
-					type="radio"
-					id="recommendations"
-					name="Challenges" />
+				<p>Would you recommend Devslopes to a friend?</p>
+				<div>
+					<input type="radio" />
+					<label
+						for="recommendations"
+						id="yesChoice"
+						>Definitely</label
+					><br />
+				</div>
+				<div>
+					<input type="radio" />
+					<label
+						for="recommendations"
+						id="noChoice"
+						>Not Sure</label
+					><br />
+				</div>
+				<div>
+					<input type="radio" />
+					<label
+						for="recommendations"
+						id="undecided"
+						>Maybe</label
+					>
+				</div>
 			</div>
+			<br />
+			<div>
+				<label
+					for="favoriteFeature"
+					id="favoriteFeature"
+					>What is your favorite feature of Devslopes? </label
+				><br />
+				<select
+					name="features"
+					id="favoriteFeature">
+					<option value="challenges">Challenges</option>
+					<option value="projects">Projects</option>
+					<option value="community">Community</option>
+					<option value="mentorship">Mentorship</option>
+				</select>
+			</div><br>
+			<div>
+				<!-- spacer for the multiple choice section -->
+				<input type="checkbox" id="frontProjects" name="frontProjects" value="frontEndProjects">
+				<label for="frontProjects"> Front-End Projects</label><br>
+				<input type="checkbox" id="backProjects" name="backProjects" value="backEndProjects">
+				<label for="backProjects"> Back-End Projects</label><br>
+				<input type="checkbox" id="moreChallenges" name="moreChallenges" value="Challenges">
+				<label for="moreChallenges"> Challenges</label><br>
+				<input type="checkbox" id="trainingVideos" name="trainingVideos" value="Videos">
+  				<label for="Videos"> Training Videos </label><br>
+  				<input type="checkbox" id="onlineMeetups" name="onlineMeetups" value="Online Meetups">
+  				<label for="onlineMeetups"> Online Meetups </label><br>
+  				<input type="checkbox" id="outCommunity" name="outCommunity" value="Community">
+  				<label for="outCommunity"> Our Wonderful Community</label>
+			</div>
+			<br />
+			<div
+				class="typingInformation"
+				>
+				<label for="comments">Any comments you'd like to add?</label><br />
+				<input type="text"
+					class="typingInformation"
+					id="comments">
+				</input>
+			</div>
+			<input type="submit">
 		</form>
 	</body>
 </html>
