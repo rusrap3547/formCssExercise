@@ -26,7 +26,8 @@
 				><br />
 				<input
 					type="text"
-					id="fullName" />
+					id="fullName" 
+					class="typingInformation"/>
 			</div>
 			<div
 				id="enterEmailAddress"
@@ -41,11 +42,11 @@
 					id="enterEmailAddress"
 					class="typingInformation" />
 			</div>
-			<div>
+			<div
+			class="typingInformation" >
 				<label
 					for="ageInput"
 					id="ageInput"
-					class="typingInformation"
 					>Age (optional) </label
 				><br />
 				<input
@@ -119,28 +120,33 @@
 				<!-- spacer for the multiple choice section -->
 				<input type="checkbox" id="frontProjects" name="frontProjects" value="frontEndProjects">
 				<label for="frontProjects"> Front-End Projects</label><br>
+				<!--  -->
 				<input type="checkbox" id="backProjects" name="backProjects" value="backEndProjects">
 				<label for="backProjects"> Back-End Projects</label><br>
+				<!--  -->
 				<input type="checkbox" id="moreChallenges" name="moreChallenges" value="Challenges">
 				<label for="moreChallenges"> Challenges</label><br>
+				<!--  -->
 				<input type="checkbox" id="trainingVideos" name="trainingVideos" value="Videos">
-  				<label for="Videos"> Training Videos </label><br>
+  				<label for="trainingVideos"> Training Videos </label><br>
+				<!--  -->
   				<input type="checkbox" id="onlineMeetups" name="onlineMeetups" value="Online Meetups">
   				<label for="onlineMeetups"> Online Meetups </label><br>
+				<!--  -->
   				<input type="checkbox" id="outCommunity" name="outCommunity" value="Community">
   				<label for="outCommunity"> Our Wonderful Community</label>
+				<!--  -->
 			</div>
 			<br />
 			<div
-				class="typingInformation"
-				>
+				class="typingInformation">
 				<label for="comments">Any comments you'd like to add?</label><br />
 				<input type="text"
 					class="typingInformation"
 					id="comments">
 				</input>
 			</div>
-			<input type="submit">
+			<input type="submit" id="submission">
 		</form>
 	</body>
 </html>

@@ -1,6 +1,7 @@
 body {
 	background-image: url(usedPictures/matrix.jpeg);
 }
+
 form {
 	border: 2px solid black;
 	margin-left: 20%;
@@ -9,6 +10,10 @@ form {
 	background-color: gray;
 	padding: 20px;
 }
+.typingInformation {
+	text-align: center;
+	width: 100%;
+}
 h1 {
 	color: lime;
 	background-color: gray;
@@ -16,9 +21,14 @@ h1 {
 }
 
 #comments {
-    height: 100pt;
-    width: 100%;
+	height: 100pt;
+	width: 100%;
 }
-label{
-    padding-bottom: ;
+label {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: lime;
+}
+input{
+    padding-top: 5px;
 }
