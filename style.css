@@ -10,10 +10,12 @@ form {
 	background-color: gray;
 	padding: 20px;
 }
+
 .typingInformation {
 	text-align: center;
 	width: 100%;
 }
+
 h1 {
 	color: lime;
 	background-color: gray;
@@ -37,7 +39,11 @@ input {
 	width: 100%;
 	background-color: lime;
 }
-p {
+h4 {
 	color: lime;
 	padding-top: 10px;
+}
+
+.inputTitles {
+	
 }
